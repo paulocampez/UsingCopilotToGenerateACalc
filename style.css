@@ -1,0 +1,39 @@
+
+body {
+    background-color: #7e7b7b;
+    color: #ffffff;
+}
+
+button {
+    background-color: #ffffff;
+    color: #000000;
+}
+div {
+    background-color: #000000;
+    color: #ffffff;
+}
+
+.header{
+    font-size: 14px;
+    font-family:'Radio Canada', sans-serif;
+    color:#7DDD00;
+    font-weight:600;
+    border-bottom: 1px solid #7DDD00;
+    padding: 10px;
+    text-align: center;
+}
+.content {
+    align-items: center;
+    color: #ffffff;
+    font-size: 14px;
+    font-family:'Radio Canada', sans-serif;
+    font-weight:600;
+    line-height: 1.5em;
+}
+.tableCenter{
+    margin: 0 auto;
+    text-align: center;
+}
+
+
+

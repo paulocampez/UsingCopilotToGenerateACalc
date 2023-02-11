@@ -1,0 +1,120 @@
+<html>
+<head>
+<title>Calculadora. </title>
+<link rel="stylesheet" href="style.css">
+<script src="calculadora.js"></script>
+</head>
+<body>
+    <div class="header">
+        <h1>Calculadora. </h1>
+        <form action="index.html" method="post" class="formCalculadora">
+            <label for="numeroA">Primeiro Numero (A):</label>
+            <input type="number" name="numeroA" id="numeroA" value="0">
+            <label for="numeroA">Primeiro Segundo (B):</label>
+            <input type="number" name="numeroB" id="numeroB" value="0">
+            <button type="button" onclick="calcular()">Calcular</button>
+        </form> 
+    </div>
+
+    <div class="content">
+       <table class="tableCenter">
+              <tr>
+                <th>Operação</th>
+                <th>Resultado</th>
+              </tr>
+              <tr>
+                <td>Soma</td>
+                <td id="soma">
+                    <input type="text" name="resultadoSoma" id="resultadoSoma" readonly>
+                </td>
+              </tr>
+              <tr>
+                <td>Subtração A - B</td>
+                <td id="subtracao">
+                    <input type="text" name="resultadoSubtracaoAB" id="resultadoSubtracaoAB" readonly>
+                </td>
+              </tr>
+              <tr>
+                <td>Subtração B - A</td>
+                <td id="subtracao">
+                    <input type="text" name="resultadoSubtracaoBA" id="resultadoSubtracaoBA" readonly>
+                </td>
+              </tr>
+              <tr>
+                <td>Multiplicação</td>
+                <td id="multiplicacao">
+                    <input type="text" name="resultadoMultiplicacao" id="resultadoMultiplicacao" readonly>
+                </td>
+              </tr>
+              <tr>
+                <td>Divisão A / B</td>
+                <td id="divisaoAB">
+                    <input type="text" name="resultadoDivisaoAB" id="resultadoDivisaoAB" readonly>
+                </td>
+              </tr>
+              <tr>
+                <td>Divisão B / A</td>
+                <td id="divisaoBA">
+                    <input type="text" name="resultadoDivisaoBA" id="resultadoDivisaoBA" readonly>
+                </td>
+              </tr>
+              <tr>
+                <td>Potência de A na base B</td>
+                <td id="potenciaAB">
+                    <input type="text" name="resultadoPotenciaAB" id="resultadoPotenciaAB" readonly>
+                </td>
+              </tr>
+              <tr>
+                <td>Potência de B na base A</td>
+                <td id="potenciaBA">
+                    <input type="text" name="resultadoPotenciaBA" id="resultadoPotenciaBA" readonly>
+                </td>
+              </tr>
+              <tr>
+                <td>Raiz Quadrada de A</td>
+                <td id="raizA">
+                    <input type="text" name="resultadoRaizA" id="resultadoRaizA" readonly>
+                </td>
+              </tr>
+              <tr>
+                <td>Raiz Quadrada de B</td>
+                <td id="raizB">
+                    <input type="text" name="resultadoRaizB" id="resultadoRaizB" readonly>
+                </td>
+              </tr>
+              <tr>
+                <td>Fatorial de A</td>
+                <td id="fatorialA">
+                    <input type="text" name="resultadoFatorialA" id="resultadoFatorialA" readonly>
+                </td>
+              </tr>
+              <tr>
+                <td>Fatorial de B</td>
+                <td id="fatorialB">
+                    <input type="text" name="resultadoFatorialB" id="resultadoFatorialB" readonly>
+                </td>
+              </tr>
+              <tr>
+                <td>Porcentagem de A em relação a B</td>
+                <td id="porcentagemAB">
+                    <input type="text" name="resultadoPorcentagemAB" id="resultadoPorcentagemAB" readonly>
+                </td>
+              </tr>
+              <tr>
+                <td>Porcentagem de B em relação a A</td>
+                <td id="porcentagemBA">
+                    <input type="text" name="resultadoPorcentagemBA" id="resultadoPorcentagemBA" readonly>
+                </td>
+              </tr>
+              <tr>
+                <td>Média</td>
+                <td id="media">
+                    <input type="text" name="resultadoMedia" id="resultadoMedia" readonly>
+                </td>
+              </tr>
+       </table>
+    </div>
+
+    
+</body>
+</html>
